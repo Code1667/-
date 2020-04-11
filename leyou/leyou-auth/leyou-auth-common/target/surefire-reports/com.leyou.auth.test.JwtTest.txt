@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.leyou.auth.test.JwtTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.042 s <<< FAILURE! - in com.leyou.auth.test.JwtTest
+testParseToken(com.leyou.auth.test.JwtTest)  Time elapsed: 0.706 s  <<< ERROR!
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-03-14T00:07:34Z. Current time: 2020-03-14T01:07:34Z, a difference of 3600042 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at com.leyou.auth.test.JwtTest.testParseToken(JwtTest.java:45)
+

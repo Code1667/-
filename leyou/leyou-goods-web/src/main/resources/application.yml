@@ -1,0 +1,21 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: goods-web
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    host: 192.168.2.128
+    virtual-host: /leyou
+    username: leyou
+    password: leyou
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    registry-fetch-interval-seconds: 5
+leyou:
+  jwt:
+    pubKeyPath: d:\\tmp\\rsa\\rsa.pub # 公钥地址
+    cookieName: LY_TOKEN

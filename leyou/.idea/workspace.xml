@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2d98120-bd8b-4244-b47f-7a04243f64f6" name="Default Changelist" comment="乐优商城">
+      <change afterPath="$PROJECT_DIR$/../demo-es6/hello-es6/hello-es6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-es6/hello-vue/.idea/hello-vue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-es6/hello-vue/hello-vue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-es6/hello-vue/src/js/.idea/js.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/dysms-demo/.idea/dysms-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/dysms-demo/dysms-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/itcast-elasticsearch/itcast-elasticsearch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/itcast-springboot/itcast-springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/itcast-user/itcast-user.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/day14_test/day14_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/day15_response/day15_response.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/day16_cookie/day16_cookie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/day17_case/.idea/day17_case.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/day17_case/day17_case.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/day17_jsp/.idea/day17_jsp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/day17_jsp/day17_jsp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/day19_filter&amp;listenser/day19_filter&amp;listenser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/day22_AJAX&amp;JSON/day22_AJAX&amp;JSON.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/day23_redis/day23_redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/hehe/hehe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/servlet&amp;http&amp;request/.idea/servlet&amp;http&amp;request.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/servlet&amp;http&amp;request/servlet&amp;http&amp;request.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/servlet/servlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast/tomcat/tomcat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou-portal/leyou-portal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/main/java/com/leyou/common/pojo/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/main/java/com/leyou/common/utils/JwtConstans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/main/java/com/leyou/common/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/main/java/com/leyou/common/utils/ObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/main/java/com/leyou/common/utils/RsaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/test/java/com/leyou/auth/test/JwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/classes/com/leyou/common/pojo/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/classes/com/leyou/common/utils/JwtConstans.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/classes/com/leyou/common/utils/JwtUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/classes/com/leyou/common/utils/ObjectUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/classes/com/leyou/common/utils/RsaUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/surefire-reports/TEST-com.leyou.auth.test.JwtTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/surefire-reports/com.leyou.auth.test.JwtTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/target/test-classes/com/leyou/auth/test/JwtTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/java/com/leyou/LeyouAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/java/com/leyou/auth/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/java/com/leyou/auth/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/java/com/leyou/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/java/com/leyou/auth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/target/classes/com/leyou/LeyouAuthApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/target/classes/com/leyou/auth/client/UserClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/target/classes/com/leyou/auth/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/target/classes/com/leyou/auth/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/target/classes/com/leyou/auth/service/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/target/leyou-auth-service-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/src/main/java/com/leyou/LeyouCartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/src/main/java/com/leyou/cart/client/GoodsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/src/main/java/com/leyou/cart/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/src/main/java/com/leyou/cart/config/LeyouWebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/src/main/java/com/leyou/cart/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/src/main/java/com/leyou/cart/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/src/main/java/com/leyou/cart/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/src/main/java/com/leyou/cart/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/classes/com/leyou/LeyouCartApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/classes/com/leyou/cart/client/GoodsClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/classes/com/leyou/cart/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/classes/com/leyou/cart/config/LeyouWebMvcConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/classes/com/leyou/cart/controller/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/classes/com/leyou/cart/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/classes/com/leyou/cart/pojo/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/classes/com/leyou/cart/service/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/leyou-cart-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-cart/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/src/main/java/com/leyou/common/pojo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/src/main/java/com/leyou/common/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/src/main/java/com/leyou/common/utils/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/src/main/java/com/leyou/common/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/src/main/java/com/leyou/common/utils/NumberUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/target/classes/com/leyou/common/pojo/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/target/classes/com/leyou/common/utils/CookieUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/target/classes/com/leyou/common/utils/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/target/classes/com/leyou/common/utils/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/target/classes/com/leyou/common/utils/NumberUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/target/leyou-common-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/LeyouGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/FilterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/target/classes/com/leyou/LeyouGatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/target/classes/com/leyou/gateway/config/FilterProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/target/classes/com/leyou/gateway/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/target/classes/com/leyou/gateway/config/LeyouCorsConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/target/classes/com/leyou/gateway/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/target/leyou-gateway-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/leyou-goods-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/src/main/java/com/leyou/LeyouGoodsWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/src/main/java/com/leyou/goods/client/BrandClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/src/main/java/com/leyou/goods/client/CategoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/src/main/java/com/leyou/goods/client/GoodsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/src/main/java/com/leyou/goods/client/SpecificationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/src/main/java/com/leyou/goods/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/src/main/java/com/leyou/goods/listener/GoodsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/src/main/java/com/leyou/goods/service/GoodsHtmlService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/src/main/java/com/leyou/goods/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/src/main/resources/templates/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/com/leyou/LeyouGoodsWebApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/com/leyou/goods/client/BrandClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/com/leyou/goods/client/CategoryClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/com/leyou/goods/client/GoodsClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/com/leyou/goods/client/SpecificationClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/com/leyou/goods/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/com/leyou/goods/listener/GoodsListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/com/leyou/goods/service/GoodsHtmlService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/com/leyou/goods/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/templates/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/classes/templates/xxx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/leyou-goods-web-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-goods-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/BrandApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/CategoryApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/SpecificationApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/bo/SpuBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Sku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/SpecGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/SpecParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Spu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/SpuDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/api/BrandApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/api/CategoryApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/api/GoodsApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/api/SpecificationApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/bo/SpuBo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/pojo/Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/pojo/Sku.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/pojo/SpecGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/pojo/SpecParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/pojo/Spu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/pojo/SpuDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/com/leyou/item/pojo/Stock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/leyou-item-interface-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/LeyouItemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/GoodsControlller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/SpecificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/SkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/SpecGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/SpecParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/SpuDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/SpuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/StockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/SpecificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/LeyouItemApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/controller/BrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/controller/GoodsControlller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/controller/SpecificationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/mapper/BrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/mapper/SkuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/mapper/SpecGroupMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/mapper/SpecParamMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/mapper/SpuDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/mapper/SpuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/mapper/StockMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/service/BrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/service/SpecificationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/leyou-item-service-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/LeyouOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/config/IdWorkerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/config/IdWorkerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/config/PayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/config/PayProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/mapper/OrderStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/pojo/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/pojo/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/order/service/api/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/utils/PayHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/java/com/leyou/utils/PayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/LeyouOrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/config/IdWorkerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/config/IdWorkerProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/config/PayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/config/PayProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/order/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/order/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/order/mapper/OrderDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/order/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/order/mapper/OrderStatusMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/order/pojo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/order/pojo/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/order/pojo/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/order/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/order/service/api/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/utils/PayHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/com/leyou/utils/PayState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/leyou-order-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-order/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/src/main/java/com/leyou/LeyouResgistApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/target/classes/com/leyou/LeyouResgistApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/target/leyou-registry-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/leyou-search.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/LeyouSearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/client/BrandClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/client/CategoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/client/GoodsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/client/SpecificationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/listener/GoodsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/pojo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/pojo/SearchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/pojo/SearchResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/repository/GoodsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/LeyouSearchApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/client/BrandClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/client/CategoryClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/client/GoodsClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/client/SpecificationClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/controller/SearchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/listener/GoodsListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/pojo/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/pojo/SearchRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/pojo/SearchResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/repository/GoodsRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/service/SearchService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/service/SearchService$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/service/SearchService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/leyou-search-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/src/main/java/com/leyou/LeyouSmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/src/main/java/com/leyou/gateway/config/SmsProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/src/main/java/com/leyou/sms/listener/SmsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/src/main/java/com/leyou/sms/utils/SmsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/target/classes/com/leyou/LeyouSmsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/target/classes/com/leyou/gateway/config/SmsProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/target/classes/com/leyou/sms/listener/SmsListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/target/classes/com/leyou/sms/utils/SmsUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/target/leyou-sms-service-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-sms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/leyou-upload.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/LeyouUploadApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/upload/config/FastClientImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/upload/config/LeyouCorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/upload/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/upload/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/src/test/java/com/leyou/upload/FastDFSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/classes/com/leyou/LeyouUploadApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/classes/com/leyou/upload/config/FastClientImporter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/classes/com/leyou/upload/config/LeyouCorsConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/classes/com/leyou/upload/controller/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/classes/com/leyou/upload/service/UploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/leyou-upload-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/surefire-reports/TEST-com.leyou.upload.FastDFSTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/surefire-reports/com.leyou.upload.FastDFSTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-upload/target/test-classes/com/leyou/upload/FastDFSTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/leyou-user-interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/src/main/java/com/leyou/user/api/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/src/main/java/com/leyou/user/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/target/classes/com/leyou/user/api/UserApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/target/classes/com/leyou/user/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/target/leyou-user-interface-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/src/main/java/com/leyou/LeyouUserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/src/main/java/com/leyou/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/src/main/java/com/leyou/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/src/main/java/com/leyou/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/src/main/java/com/leyou/user/utils/CodecUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/src/test/java/test/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/classes/com/leyou/LeyouUserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/classes/com/leyou/user/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/classes/com/leyou/user/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/classes/com/leyou/user/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/classes/com/leyou/user/utils/CodecUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/leyou-user-service-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/surefire-reports/2020-03-13T22-14-49_299-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/surefire-reports/2020-03-15T00-32-40_220-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/surefire-reports/2020-03-15T21-58-58_629-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/surefire-reports/TEST-test.RedisTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/surefire-reports/test.RedisTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/test-classes/test/RedisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resume/test/test.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="leyou" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\IDEA_Projects\leyou\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1YOvHf1SQfiRz0pfSoQUarMhLK8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA_Projects\leyou\leyou-auth\leyou-auth-service\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.leyou.cart.config" />
+      <recent name="com.leyou.gateway.config" />
+      <recent name="com.leyou.sms.config" />
+      <recent name="test" />
+      <recent name="com.leyou.item.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA_Projects\leyou\leyou-auth\leyou-auth-common\src\main\java\com\leyou\common\pojo" />
+      <recent name="D:\IDEA_Projects\leyou\leyou-auth\leyou-auth-common\src\main\java\com\leyou\common\utils" />
+      <recent name="D:\IDEA_Projects\leyou\leyou-user\leyou-user-service\src\main\java\com\leyou\user\utils" />
+      <recent name="D:\IDEA_Projects\leyou\leyou-common\src\main\java\com\leyou\common\utils" />
+      <recent name="D:\IDEA_Projects\leyou\leyou-sms\src\test\java\com\leyou\user\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LeyouOrderApplication">
+    <configuration name="LeyouAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="leyou-auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouAuthApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouCartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouGoodsWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="leyou-goods-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouGoodsWebApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="leyou-item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouItemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouResgistApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-registry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouResgistApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="leyou-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouSearchApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="leyou-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouSmsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="leyou-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouUploadApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.LeyouItemApplication" />
+      <item itemvalue="Spring Boot.LeyouAuthApplication" />
+      <item itemvalue="Spring Boot.LeyouSearchApplication" />
+      <item itemvalue="Spring Boot.LeyouSmsApplication" />
+      <item itemvalue="Spring Boot.LeyouUploadApplication" />
+      <item itemvalue="Spring Boot.LeyouGoodsWebApplication" />
+      <item itemvalue="Spring Boot.LeyouCartApplication" />
+      <item itemvalue="Spring Boot.LeyouResgistApplication" />
+      <item itemvalue="Spring Boot.LeyouUserApplication" />
+      <item itemvalue="Spring Boot.LeyouGatewayApplication" />
+      <item itemvalue="Spring Boot.LeyouOrderApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LeyouGatewayApplication" />
+        <item itemvalue="Spring Boot.LeyouOrderApplication" />
+        <item itemvalue="Spring Boot.LeyouUserApplication" />
+        <item itemvalue="Spring Boot.LeyouResgistApplication" />
+        <item itemvalue="Spring Boot.LeyouCartApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.28172588" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2d98120-bd8b-4244-b47f-7a04243f64f6" name="Default Changelist" comment="" />
+      <created>1582826369007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582826369007</updated>
+      <workItem from="1582826370487" duration="5423000" />
+      <workItem from="1582831844226" duration="1847000" />
+      <workItem from="1582904711564" duration="908000" />
+      <workItem from="1583074993331" duration="3390000" />
+      <workItem from="1583078400591" duration="9148000" />
+      <workItem from="1583114937017" duration="4370000" />
+      <workItem from="1583133406406" duration="14985000" />
+      <workItem from="1583195950258" duration="11609000" />
+      <workItem from="1583244336233" duration="8920000" />
+      <workItem from="1583286044702" duration="6060000" />
+      <workItem from="1583309911883" duration="4026000" />
+      <workItem from="1583330643256" duration="751000" />
+      <workItem from="1583458235516" duration="7326000" />
+      <workItem from="1583670571864" duration="16844000" />
+      <workItem from="1583723145703" duration="789000" />
+      <workItem from="1583739894700" duration="2199000" />
+      <workItem from="1583757444025" duration="10645000" />
+      <workItem from="1583807774321" duration="1770000" />
+      <workItem from="1583823225997" duration="14883000" />
+      <workItem from="1583855966560" duration="2107000" />
+      <workItem from="1583858087330" duration="191000" />
+      <workItem from="1583858452746" duration="145000" />
+      <workItem from="1583858863616" duration="4665000" />
+      <workItem from="1583892420207" duration="1444000" />
+      <workItem from="1583916111533" duration="5121000" />
+      <workItem from="1583935075282" duration="4831000" />
+      <workItem from="1583939935675" duration="6142000" />
+      <workItem from="1583981261808" duration="7080000" />
+      <workItem from="1584004396322" duration="241000" />
+      <workItem from="1584014509333" duration="13088000" />
+      <workItem from="1584085539396" duration="913000" />
+      <workItem from="1584108740887" duration="2131000" />
+      <workItem from="1584111122159" duration="411000" />
+      <workItem from="1584112601101" duration="11881000" />
+      <workItem from="1584151093662" duration="1625000" />
+      <workItem from="1584197192480" duration="9538000" />
+      <workItem from="1584237228138" duration="55000" />
+      <workItem from="1584237288253" duration="2201000" />
+      <workItem from="1584280493463" duration="10903000" />
+      <workItem from="1584346531088" duration="608000" />
+      <workItem from="1584347159940" duration="8369000" />
+      <workItem from="1584517008475" duration="4000" />
+      <workItem from="1584533861557" duration="13000" />
+      <workItem from="1584641108151" duration="1277000" />
+      <workItem from="1584713207957" duration="1201000" />
+      <workItem from="1586618986931" duration="1090000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="乐优商城" />
+    <option name="LAST_COMMIT_MESSAGE" value="乐优商城" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="581" y="217" key="#Inspections" timestamp="1584116133694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="581" y="217" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1584116133694" />
+    <state x="508" y="211" key="#Inspections/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584015695956" />
+    <state x="552" y="181" key="#Project_Structure" timestamp="1584151478616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584151478616" />
+    <state x="483" y="176" key="#Project_Structure/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1583688876178" />
+    <state x="2232" y="161" key="#Project_Structure/1680.-20.1920.1040/0.0.1680.1010@1680.-20.1920.1040" timestamp="1582830901275" />
+    <state x="682" y="171" width="1165" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584198834058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="171" width="1165" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584198834058" />
+    <state x="1116" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1584239185328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1116" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584239185328" />
+    <state x="977" y="207" key="#com.intellij.ide.util.MemberChooser/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1583691895385" />
+    <state x="994" y="299" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584121634114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="994" y="299" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584121634114" />
+    <state x="850" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584280933438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="850" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584280933438" />
+    <state x="721" y="435" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1583681559299" />
+    <state x="659" y="386" width="538" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584283401188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="659" y="386" width="538" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1584283401188" />
+    <state x="577" y="375" width="536" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1583684119664" />
+    <state x="1043" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1583983663886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1043" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1583983663886" />
+    <state x="913" y="396" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1583250687387" />
+    <state x="653" y="293" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583940860988">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="746" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583893487820" />
+    <state x="653" y="293" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1583940860988" />
+    <state x="749" y="163" key="CommitChangelistDialog2" timestamp="1586620020124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="749" y="163" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586620020124" />
+    <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1583088236868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="242" height="189" key="DatabaseViewActions_Filter/0.0.1920.1040@0.0.1920.1040" timestamp="1583088236868" />
+    <state x="927" y="219" key="FileChooserDialogImpl" timestamp="1584347249655">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="1059" y="225" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584237270100" />
+    <state x="927" y="219" key="FileChooserDialogImpl/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584347249655" />
+    <state width="822" height="253" key="GridCell.Tab.0.bottom" timestamp="1584376127374">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="822" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584292242830" />
+    <state width="822" height="253" key="GridCell.Tab.0.bottom/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584376127374" />
+    <state width="1327" height="310" key="GridCell.Tab.0.bottom/1680.-20.1920.1040/0.0.1680.1010@1680.-20.1920.1040" timestamp="1583117439387" />
+    <state width="822" height="253" key="GridCell.Tab.0.center" timestamp="1584376127374">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="822" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584292242830" />
+    <state width="822" height="253" key="GridCell.Tab.0.center/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584376127374" />
+    <state width="1327" height="310" key="GridCell.Tab.0.center/1680.-20.1920.1040/0.0.1680.1010@1680.-20.1920.1040" timestamp="1583117439387" />
+    <state width="822" height="253" key="GridCell.Tab.0.left" timestamp="1584376127374">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="822" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584292242830" />
+    <state width="822" height="253" key="GridCell.Tab.0.left/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584376127374" />
+    <state width="1327" height="310" key="GridCell.Tab.0.left/1680.-20.1920.1040/0.0.1680.1010@1680.-20.1920.1040" timestamp="1583117439386" />
+    <state width="822" height="253" key="GridCell.Tab.0.right" timestamp="1584376127374">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="822" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584292242830" />
+    <state width="822" height="253" key="GridCell.Tab.0.right/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584376127374" />
+    <state width="1327" height="310" key="GridCell.Tab.0.right/1680.-20.1920.1040/0.0.1680.1010@1680.-20.1920.1040" timestamp="1583117439387" />
+    <state width="822" height="253" key="GridCell.Tab.1.bottom" timestamp="1584376127374">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="822" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584292242830" />
+    <state width="822" height="253" key="GridCell.Tab.1.bottom/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584376127374" />
+    <state width="1327" height="310" key="GridCell.Tab.1.bottom/1680.-20.1920.1040/0.0.1680.1010@1680.-20.1920.1040" timestamp="1583117439387" />
+    <state width="822" height="253" key="GridCell.Tab.1.center" timestamp="1584376127374">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="822" height="265" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584292242830" />
+    <state width="822" height="253" key="GridCell.Tab.1.center/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584376127374" />
+    <state width="1327" height="310" key="GridCell.Tab.1.center/1680.-20.1920.1040/0.0.1680.1010@1680.-20.1920.1040" timestamp="1583117439387" />
+    <state width="822" height="253" key="GridCell.Tab.1.left" timestamp="1584376127374">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="822" height="265" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584292242830" />
+    <state width="822" height="253" key="GridCell.Tab.1.left/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584376127374" />
+    <state width="1327" height="310" key="GridCell.Tab.1.left/1680.-20.1920.1040/0.0.1680.1010@1680.-20.1920.1040" timestamp="1583117439387" />
+    <state width="822" height="253" key="GridCell.Tab.1.right" timestamp="1584376127374">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="822" height="265" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584292242830" />
+    <state width="822" height="253" key="GridCell.Tab.1.right/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584376127374" />
+    <state width="1327" height="310" key="GridCell.Tab.1.right/1680.-20.1920.1040/0.0.1680.1010@1680.-20.1920.1040" timestamp="1583117439387" />
+    <state x="475" y="222" key="Maven.ArtifactSearchDialog" timestamp="1584015955654">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="797" y="197" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583079006979" />
+    <state x="475" y="222" key="Maven.ArtifactSearchDialog/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584015955654" />
+    <state x="480" y="208" key="NewModule_or_Project.wizard" timestamp="1584347250852">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="480" y="208" key="NewModule_or_Project.wizard/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584347250852" />
+    <state x="677" y="124" key="SettingsEditor" timestamp="1584115170273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="124" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584115170273" />
+    <state x="343" y="150" key="SettingsEditor/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1584015664538" />
+    <state x="1247" y="268" width="549" height="524" key="StructurePopup" timestamp="1584238455599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1247" y="268" width="549" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1584238455599" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1583919127811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1583919127811" />
+    <state x="1122" y="251" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1584114810676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1122" y="251" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1920.1040@0.0.1920.1040" timestamp="1584114810676" />
+    <state x="1017" y="271" key="extract.method.dialog" timestamp="1583916827073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1017" y="271" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583916827073" />
+    <state x="845" y="179" width="869" height="605" key="new project wizard" timestamp="1584151244643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="179" width="869" height="605" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584151244643" />
+    <state x="317" y="170" key="new project wizard/1680.-20.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1583823289021" />
+    <state x="226" y="336" width="1251" height="587" key="new project wizard/1680.-20.1920.1040/0.0.1680.1010@1680.-20.1920.1040" timestamp="1582905720774" />
+  </component>
+</project>
